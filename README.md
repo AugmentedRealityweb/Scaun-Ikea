@@ -16,26 +16,25 @@
       align-items: center;
       height: 100vh;
     }
-.model-container {
+    .model-container {
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
     }
- .model-section {
+    .model-section {
       text-align: center;
-      margin-bottom: 50px; /* Spațiere între model și butonul de navigare */
+      margin-bottom: 50px;
     }
-    model-viewer {
+    iframe {
       width: 200px;
       height: 270px;
-      margin: 0 auto;
       border-radius: 20px;
       box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
     .ar-button {
-      padding: 5px 10px; /* Ajustat pentru a face butonul mai mic */
-      font-size: 0.8rem; /* Ajustat pentru a face textul mai mic */
+      padding: 5px 10px;
+      font-size: 0.8rem;
       margin-top: 10px;
       background-color: #007BFF;
       border: none;
@@ -49,7 +48,7 @@
     }
     .back-link {
       display: block;
-      margin-top: 50px; /* Distanța de la model */
+      margin-top: 50px;
       text-decoration: none;
       color: white;
       background-color: #007BFF;
@@ -66,52 +65,18 @@
       font-size: 1.2em;
     }
   </style>
-  <script type="module" src="https://unpkg.com/@google/model-viewer"></script>
 </head>
 <body>
 
 <div class="model-container">
-  <!-- Model -->
   <div class="model-section">
-    <model-viewer
-      src="scaun.glb"
-      ios-src="scaun.usdz"
-      ar
-      ar-modes="webxr scene-viewer quick-look"
-      camera-controls
-      auto-rotate
-      environment-image="neutral"
-      shadow-intensity="1"
-      loading="lazy"
-      alt="Noodle"
-      min-camera-orbit="auto 0deg 0deg"
-      max-camera-orbit="auto 80deg auto">
-      <button slot="ar-button" class="ar-button">Activează modul AR</button>
-    </model-viewer>
-    <p>Noodle</p>
-   <div class="sketchfab-embed-wrapper">
-    <iframe title="Pack of Noodle" 
-            frameborder="0" 
-            allowfullscreen 
-            mozallowfullscreen="true" 
-            webkitallowfullscreen="true" 
-            allow="autoplay; fullscreen; xr-spatial-tracking" 
-            xr-spatial-tracking 
-            execution-while-out-of-viewport 
-            execution-while-not-rendered 
-            web-share
-            src="https://sketchfab.com/models/fd560b2d3b4f408fbd0c753d77e59f17/embed?autostart=1&ar=1">
-    </iframe>
-    <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
-        <a href="https://sketchfab.com/3d-models/pack-of-noodle-fd560b2d3b4f408fbd0c753d77e59f17?utm_medium=embed&utm_campaign=share-popup&utm_content=fd560b2d3b4f408fbd0c753d77e59f17" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Pack of Noodle </a> by 
-        <a href="https://sketchfab.com/Manomotion2023?utm_medium=embed&utm_campaign=share-popup&utm_content=fd560b2d3b4f408fbd0c753d77e59f17" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Manomotion2023 </a> on 
-        <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=fd560b2d3b4f408fbd0c753d77e59f17" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
-    </p>
-</div>
-
+    <iframe title="Pack of Noodle" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/fd560b2d3b4f408fbd0c753d77e59f17/embed?autostart=1&ar=1"></iframe>
+    <p>Pack of Noodle by Manomotion2023 on Sketchfab</p>
+    <!-- Presupunând că avem un link direct pentru AR (spre exemplu, pentru iOS) -->
+    <!-- Butonul de AR ar putea fi adăugat aici, dacă este cazul -->
   </div>
-  <!-- Buton de navigare înapoi la meniul principal -->
   <a href="https://augmentedrealityweb.github.io/toate-produsele/" class="back-link">Înapoi la meniul principal</a>
 </div>
+
 </body>
 </html>
