@@ -89,6 +89,7 @@
       <button slot="ar-button" class="ar-button">Activează modul AR</button>
     </model-viewer>
     <p>Noodle</p>
+    <div class="sketchfab-embed-wrapper"> <iframe title="Pack of Noodle" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/fd560b2d3b4f408fbd0c753d77e59f17/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/pack-of-noodle-fd560b2d3b4f408fbd0c753d77e59f17?utm_medium=embed&utm_campaign=share-popup&utm_content=fd560b2d3b4f408fbd0c753d77e59f17" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Pack of Noodle </a> by <a href="https://sketchfab.com/Manomotion2023?utm_medium=embed&utm_campaign=share-popup&utm_content=fd560b2d3b4f408fbd0c753d77e59f17" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Manomotion2023 </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=fd560b2d3b4f408fbd0c753d77e59f17" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
   </div>
   <!-- Buton de navigare înapoi la meniul principal -->
   <a href="https://augmentedrealityweb.github.io/toate-produsele/" class="back-link">Înapoi la meniul principal</a>
