@@ -93,5 +93,6 @@
   <!-- Buton de navigare înapoi la meniul principal -->
   <a href="https://augmentedrealityweb.github.io/toate-produsele/" class="back-link">Înapoi la meniul principal</a>
 </div>
+<iframe src="https://poly.cam/capture/a199bbea-3e36-4dd5-9e04-13af9e705711" title="polycam capture viewer" style="height:100%;width:100%;max-height:720px;max-width:1280px;min-height:280px;min-width:280px" frameborder="0"></iframe>
 </body>
 </html>
