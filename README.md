@@ -92,6 +92,7 @@
   </div>
   <!-- Buton de navigare înapoi la meniul principal -->
   <a href="https://augmentedrealityweb.github.io/toate-produsele/" class="back-link">Înapoi la meniul principal</a>
+   <iframe src="https://augmentedrealityweb.github.io/Chanel/index.html" width="200" height="230"></iframe>
 </div>
 </body>
 </html>
