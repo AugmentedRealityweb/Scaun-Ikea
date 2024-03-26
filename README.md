@@ -1,42 +1,42 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Modele AR Optimizate</title>
   <style>
     body {
       margin: 0;
       padding: 0;
       font-family: Arial, sans-serif;
-      background-image: url('fundal.jpg');
+      background-image: url('fundal8.jpg');
       background-size: cover;
       background-position: center;
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
+      height: 90vh;
     }
-.model-container {
+    .model-container {
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      margin-top: 50px;
     }
- .model-section {
+    .model-section {
       text-align: center;
       margin-bottom: 50px; /* Spațiere între model și butonul de navigare */
     }
     model-viewer {
       width: 200px;
-      height: 270px;
+      height: 300px;
       margin: 0 auto;
-      border-radius: 20px;
+      border-radius: 80px;
       box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
     .ar-button {
       padding: 5px 10px; /* Ajustat pentru a face butonul mai mic */
       font-size: 0.8rem; /* Ajustat pentru a face textul mai mic */
-      margin-top: 10px;
-      background-color: #007BFF;
+      margin-top: 235px;
+      background-color: #00c8ff;
       border: none;
       border-radius: 20px;
       color: white;
@@ -48,10 +48,10 @@
     }
     .back-link {
       display: block;
-      margin-top: 50px; /* Distanța de la model */
+      margin-top: 0px; /* Distanța de la model */
       text-decoration: none;
       color: white;
-      background-color: #007BFF;
+      background-color: #0056b3;
       padding: 10px 15px;
       border-radius: 20px;
       font-size: 0.9rem;
@@ -68,7 +68,6 @@
   <script type="module" src="https://unpkg.com/@google/model-viewer"></script>
 </head>
 <body>
-
 <div class="model-container">
   <!-- Model -->
   <div class="model-section">
@@ -82,15 +81,12 @@
       environment-image="neutral"
       shadow-intensity="1"
       loading="lazy"
-      alt="Noodle"
+      alt="Bag"
       min-camera-orbit="auto 0deg 0deg"
       max-camera-orbit="auto 80deg auto">
       <button slot="ar-button" class="ar-button">Activează modul AR</button>
     </model-viewer>
-    <p>Noodle</p>
   </div>
-  <!-- Buton de navigare înapoi la meniul principal -->
-  <a href="https://augmentedrealityweb.github.io/toate-produsele/" class="back-link">Înapoi la meniul principal</a>
-   <iframe src="https://augmentedrealityweb.github.io/Chanel/index.html" width="200" height="240" style="overflow: hidden; border: none; transform: scale(1); transform-origin: 0 0; margin-top: 10px; border-radius: 80px;"></iframe>
+  <a href="https://www.titi-valenti.ro/setul-duo-chic-black.html" class="back-link">Înapoi la pagină produs</a>
 </div>
 </body>
